@@ -84,7 +84,7 @@
 .manon { --main: #be9485; --accent: #e1c2b7; }
 .manon .austen-icobox:before { content:'\c30'; font-family:'harc'; font-size: 60px; position: absolute; top: 25px; left: 5px; color: #fafafa; z-index: 4;}
 
-.marshal { --main: #64bd7c; --accent: #c2de38; } 
+.marshal { --main: #64bd7c; --accent: #ccc932; } 
 .marshal .austen-icobox:before { content:'\c32'; font-family:'harc'; font-size: 60px; position: absolute; top: 25px; left: 5px; color: #fafafa; z-index: 4;}
 
 .maud { --main: #bf332c; --accent: #bf682e; }  
