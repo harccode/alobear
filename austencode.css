@@ -1,0 +1,106 @@
+  .austen-box { width: 280px;
+  background: #fafafa;
+  border-radius: 10px;
+  margin: 30px auto;
+  padding: 50px;
+  border-top: 65px solid #444;
+  font: 14px 'arial';
+  line-height: 20px;
+  text-align: justify;
+  position: relative;
+  box-shadow: 2px 2px #c4c4c4;
+  }
+  
+  .austen-box b {
+    color: var(--main);
+  }
+  
+  .austen-date {
+    font: 23px 'nunito';
+    position: absolute;
+    top: -18px; right: 80px;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 900;
+    text-shadow: -1px 0 #fafafa, 0 1px #fafafa, 1px 0 #fafafa, 0 -1px #fafafa;
+    z-index: 4;
+  }
+  
+  .austen-cir1 {
+    width: 55px; height: 55px;
+    border-radius: 100%;
+    background: #c4c4c4;
+    position: absolute;
+    top: -50px; right: 15px;
+    opacity: 0.5;
+    z-index: 2;
+    padding: 15px;
+  }
+  
+  .austen-cir2 {
+    width: 50px; height: 50px;
+    border-radius: 100%;
+    background-image: linear-gradient(to bottom right, var(--accent), var(--main));
+    position: absolute;
+    top: -43px; right: 22px;
+    padding: 10px;
+    z-index: 2;
+    overflow: hidden;
+  }
+  
+  .austen-tag {
+    font: 16px 'nunito';
+    text-transform: lowercase!important;
+    margin-top: 20px;
+  } 
+   
+.austen-tag a {
+    font: 16px 'nunito';
+    text-transform: lowercase!important;
+    color: var(--accent);
+    font-weight: 600;
+    margin-top: 20px;
+  }
+
+.felix  { --main: #a8bf6e; --accent: #6c91a6; }
+.felix .austen-icobox:before { content:'\c34'; font-family:'harc'; font-size: 60px; position: absolute; top: 25px; left: 5px; color: #fafafa; z-index: 4;}
+
+.fifi { --main: #6c5180; --accent: #908abd; }
+.fifi .austen-icobox:before { content:'\c31'; font-family:'harc'; font-size: 60px; position: absolute; top: 25px; left: 5px; color: #fafafa; z-index: 4; transform: rotate(-15deg);}
+
+.freddie { --main: #526fb5; --accent: #b3a858; }
+.freddie .austen-icobox:before { content:'\c33'; font-family:'harc'; font-size: 60px; position: absolute; top: 25px; left: 5px; color: #fafafa; z-index: 4;}
+ 
+.iggy { --main: #4cad79; --accent: #de76d9; }
+.iggy .austen-icobox:before { content:'\c22'; font-family:'harc'; font-size: 60px; position: absolute; top: 25px; left: 5px; color: #fafafa; z-index: 4;}
+
+.jo { --main: #629459; --accent: #8b979e; }
+.jo .austen-icobox:before { content:'\c28'; font-family:'harc'; font-size: 60px; position: absolute; top: 25px; left: 5px; color: #fafafa; z-index: 4;}
+
+.kyrie { --main: #a6411c; --accent: #807465; } 
+.kyrie .austen-icobox:before { content:'\c26'; font-family:'harc'; font-size: 60px; position: absolute; top: 25px; left: 5px; color: #fafafa; z-index: 4;}
+
+.manon { --main: #be9485; --accent: #e1c2b7; }
+.manon .austen-icobox:before { content:'\c30'; font-family:'harc'; font-size: 60px; position: absolute; top: 25px; left: 5px; color: #fafafa; z-index: 4;}
+
+.marshal { --main: #64bd7c; --accent: #71b8a7; } 
+.marshal .austen-icobox:before { content:'\c32'; font-family:'harc'; font-size: 60px; position: absolute; top: 25px; left: 5px; color: #fafafa; z-index: 4;}
+
+.maud { --main: #bf332c; --accent: #bf682e; }  
+.maud .austen-icobox:before { content:'\c23'; font-family:'harc'; font-size: 60px; position: absolute; top: 25px; left: 5px; color: #fafafa; z-index: 4; transform: rotate(-15deg);}
+
+.meadhbh { --main: #6aa84f; --accent: #645ebc; }
+.meadhbh .austen-icobox:before { content:'\c25'; font-family:'harc'; font-size: 60px; position: absolute; top: 25px; left: 5px; color: #fafafa; z-index: 4;}
+
+.muffy { --main: #dd6da4; --accent: #d694e1; }
+.muffy .austen-icobox:before { content:'\c29'; font-family:'harc'; font-size: 60px; position: absolute; top: 25px; left: 5px; color: #fafafa; z-index: 4;}
+
+.ruibin { --main: #f27059; --accent: #f6b26b; }
+.ruibin .austen-icobox:before { content:'\c20'; font-family:'harc'; font-size: 60px; position: absolute; top: 25px; left: 5px; color: #fafafa; z-index: 4;}
+
+.wendy { --main: #666e7c; --accent: #9c96a9; }
+.wendy .austen-icobox:before { content:'\c35'; font-family:'harc'; font-size: 55px; position: absolute; top: 25px; left: 10px; color: #fafafa; z-index: 4;}
+
+.william { --main: #51ad6a; --accent: #c26374; }
+.william .austen-icobox:before { content:'\c27'; font-family:'harc'; font-size: 60px; position: absolute; top: 25px; left: 5px; color: #fafafa; z-index: 4;}
