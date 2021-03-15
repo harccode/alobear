@@ -4,7 +4,7 @@
   margin: 30px auto;
   padding: 50px;
   border-top: 65px solid #444;
-  font: 14px 'nunito';
+  font: 15px 'nunito';
   line-height: 20px;
   text-align: justify;
   position: relative;
@@ -18,7 +18,7 @@
   .austen-date {
     font: 23px 'nunito';
     position: absolute;
-    top: -18px; right: 90px;
+    top: -16px; right: 95px;
     font-style: italic;
     color: var(--accent);
     text-transform: uppercase;
@@ -57,8 +57,8 @@
   } 
    
 .austen-tag a {
-    font: 12px 'nunito';
-    text-transform: lowercase!important;
+    font: 14px 'nunito';
+    text-transform: uppercase!important;
     color: var(--accent);
     font-weight: 600;
     margin-top: 20px;
