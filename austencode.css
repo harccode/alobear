@@ -54,6 +54,7 @@
     font: 12px 'nunito';
     text-transform: lowercase!important;
     margin-top: 40px;
+    text-align: left;
   } 
    
 .austen-tag a {
@@ -62,6 +63,7 @@
     color: var(--accent);
     font-weight: 600;
     margin-top: 40px;
+    text-align: left;
   }
 
 .felix  { --main: #a8bf6e; --accent: #6c91a6; }
